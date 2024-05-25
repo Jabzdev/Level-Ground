@@ -63,3 +63,62 @@ p{
   font-size: 25px;
   line-height: 25px;
 }
+
+
+section.section1 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section.section2 {
+  background-color: rgb(200, 214, 225);
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+section.section2 .box1,.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.box2 p {
+  width: 100%;
+}
+.box1 p {
+  width: 100%;
+}
+
+.grey-box{
+  background-color: rgb(102, 107, 131);
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+}
+
+.white-btn {
+  background-color: rgb(200, 214, 225);
+  border-radius: 0;
+  padding: 12px 30px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+
+
+section.section3 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
