@@ -17,11 +17,11 @@ header{
 
 header nav {
   width: 100%;
-  padding: 20px 30px;
+  padding: 40px 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: 200px;
 }
 
 header ul {
@@ -42,6 +42,7 @@ header nav h4 {
 }
 
 button {
+  cursor: pointer;
   color: rgb(120, 124, 146);
   border-radius: 4px;
   background-color: white;
@@ -121,4 +122,36 @@ section.section3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+footer{
+  padding:40px 80px;
+  height: 50vh;
+  background-color: rgb(14, 7, 33);
+  color: #ffff;
+}
+
+footer .top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+
+footer > .top .left,.right {
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+}
+
+footer > .bottom {
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.bottom p {
+  padding: 0;
 }
